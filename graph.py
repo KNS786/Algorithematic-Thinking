@@ -1,5 +1,5 @@
 #### ADJACENCY LISTS (actually sets)
-
+####Learning purpose only Efficiency High 
 class ALDirectedGraph(object):
     def __init__(self):
         self.Adj = {}
