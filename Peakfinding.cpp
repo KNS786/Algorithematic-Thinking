@@ -25,7 +25,7 @@ int peakFindIterative(int arr[],int key,int size)
 	{
 		for(int i=1;i<=mid;i++)
 			if(arr[i]==key)
-				return arr[i]; //return index in key and search arr same value this is return as Index values to changes for efficiency of Peak finding
+				return arr[i]; 
 	    return -1;		
 	}
 	if(key > arr[mid])
